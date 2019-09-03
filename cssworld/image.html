@@ -54,6 +54,54 @@
       bottom: 0;
       background-color: #34538b;
     }
+
+    .li3 img {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      /* 隐藏Firefox alt文字 */
+      color: transparent;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .li3 img:not([src]) {
+      /* 隐藏Chrome alt文字以及银色边框 */
+      visibility: hidden;
+    }
+
+    .li3 img::before {
+      /* 淡蓝色占位背景 */
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #f0f3f9;
+      visibility: visible;
+    }
+
+    .li3 img::after {
+      /* 黑色alt信息条 */
+      content: attr(alt);
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      line-height: 30px;
+      background-color: rgba(0, 0, 0, .5);
+      color: white;
+      font-size: 14px;
+      transform: translateY(100%);
+      /* 来点过渡动画效果 */
+      transition: transform .2s;
+      visibility: visible;
+    }
+
+    .li3 img:hover::after {
+      transform: translateY(0);
+    }
   </style>
 </head>
 
@@ -75,6 +123,10 @@
         <a href="javascript:" class="next2" title="下一张"></a>
         <img src="../images/me.jpg" alt="" style="width:100px;height:100px">
       </div>
+    </li>
+    <li class="li3">
+      <p>src缺省信息展示</p>
+      <img alt="纳尼显示不了">
     </li>
   </ul>
 </body>
