@@ -8,3 +8,5 @@ record my study
 today also react and antd
 ## 20190906
 today also react and antd,但是心情不错呢！
+## 20190907
+终于把设计稿的页面初始完了！
