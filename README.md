@@ -2,6 +2,11 @@
 record my study
 这里将记录我的学习知识，温故而知新
 
+#log
+
+<details>
+  <summary>九月</summary>
+  
 ## 20190904
 最近有点思而不学，学而不得了呢😂
 ## 20190905
@@ -20,3 +25,7 @@ today also react and antd,但是心情不错呢！
 surprise，人生真是处处充满惊喜，start or end?
 ## 20190912
 放假了，relax下？
+## 20190914
+得好好准备下了呢
+</details>
+
