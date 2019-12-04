@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>文本</title>
+  <style type="text/css">
+    .box {
+      width: 200px;
+      padding: 10px;
+      background-color: yellow;
+      text-align: center;
+    }
+
+    .content {
+      display: inline-block;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>
+      <p>单行居中多行左对齐</p>
+      <div class="box">
+        <p id="conMore" class="content">文字内容</p>
+      </div>
+      <p>
+        <button id="btnMore">更多文字</button>
+      </p>
+    </li>
+  </ul>
+  <script>
+    const btn = document.querySelector("#btnMore")
+    const conMore = document.querySelector("#conMore")
+    if (btn && conMore) {
+      btn.addEventListener("click", function () {
+        conMore.innerHTML += "-" + btnMore.innerHTML
+      })
+    }
+  </script>
+</body>
+
+</html>
