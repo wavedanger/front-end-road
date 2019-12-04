@@ -8,4 +8,6 @@ record my study
   <summary>JavaScript常见代码题</summary>
   
 </details>
+[知识点记录](https://github.com/wavedanger/record/wiki)
+
 
