@@ -14,6 +14,7 @@ record my study
   [原型链](https://github.com/wavedanger/record/tree/master/JavaScript_code/proto.js)
   
 </details>
+
 [知识点记录](https://github.com/wavedanger/record/wiki)
 
 
