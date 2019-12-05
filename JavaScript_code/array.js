@@ -1,3 +1,15 @@
+// 判断数组
+function judge(arr) {
+  console.log(Array.isArray(arr))
+  console.log(arr instanceof Array)
+  console.log(Object.prototype.toString.call(arr) === "[object Array]")
+  console.log(arr.constructor === Array)
+}
+// 类数组转换
+Array.prototype.slice.call(arrayLike)
+Array.from(arrayLike)
+// [...arrayLike]
+
 // 数组去重
 var arr = [1, 1, 'true', 'true', true, true, undefined, undefined, null, null, NaN, NaN, 'NaN', 0, 0, 'a', 'a', {}, {}];
 // ES6 Set

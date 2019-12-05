@@ -13,7 +13,8 @@ record my study
   [格式化](https://github.com/wavedanger/record/tree/master/JavaScript_code/formate.js)
   [随机](https://github.com/wavedanger/record/tree/master/JavaScript_code/random.js)
   [获取数据](https://github.com/wavedanger/record/tree/master/JavaScript_code/getData.js)
-  [数组去重](https://github.com/wavedanger/record/tree/master/JavaScript_code/arraydefer.js)
+  [数组(判断、转换、去重)](https://github.com/wavedanger/record/tree/master/JavaScript_code/array.js)
+  [this](https://github.com/wavedanger/record/tree/master/JavaScript_code/this.js)
 </details>
 
 [知识点记录](https://github.com/wavedanger/record/wiki)
