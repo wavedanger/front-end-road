@@ -15,6 +15,9 @@ record my study
   [获取数据](https://github.com/wavedanger/record/tree/master/JavaScript_code/getData.js)
   [数组(判断、转换、去重)](https://github.com/wavedanger/record/tree/master/JavaScript_code/array.js)
   [this](https://github.com/wavedanger/record/tree/master/JavaScript_code/this.js)
+  [继承](https://github.com/wavedanger/record/tree/master/JavaScript_code/extends.js)
+  [手写apply](https://github.com/wavedanger/record/tree/master/JavaScript_code/apply.js)
+  [手写call](https://github.com/wavedanger/record/tree/master/JavaScript_code/call.js)
 </details>
 
 [知识点记录](https://github.com/wavedanger/record/wiki)
