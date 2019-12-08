@@ -75,6 +75,7 @@ var max = Math.max.apply(arr)
 var max = arr.reduce((prev, cur) => {
   return Math.max(prev, cur)
 })
+var max = eval("Math.max(" + arr + ")")
 console.log(max)
 
 // 求和
@@ -123,3 +124,48 @@ arr.findIndex((item) => item === 3)//2
 arr.some(item => {
   return item === 3
 })//true
+
+
+// 扁平化数组
+
+var arr = [1, [2, 3, [4, 5]]]
+console.log(arr.flat(3))//[1,2,3,4,5]
+function flatten(arr) {
+  while (arr.some(item => Array.isArray(item))) {
+    arr = [].concat(...arr)
+  }
+  return arr
+}
+console.log(flatten(arr))//[1,2,3,4,5]
+
+// 浅拷贝 不适用于嵌套数组或对象
+var arr = [1, 2, 3, 4]
+var arr2 = arr.concat()
+var arr3 = arr.slice()
+arr2[0] = 2
+arr3[0] = 3
+console.log(arr + "|" + arr2 + "|" + arr3)//"1,2,3,4|2,2,3,4|3,2,3,4"
+
+var shallowCopy = function (obj) {
+  if (typeof obj !== "object") return
+  var newobj = obj instanceof Array ? [] : {}
+  for (var key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      newobj[key] = obj[key]
+    }
+  }
+  return newobj
+}
+//深拷贝
+var newArr = JSON.parse(JSON.stringify(arr))
+
+var deepCopy = function (obj) {
+  if (typeof obj !== "object") return
+  var newobj = obj instanceof Array ? [] : {}
+  for (var key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      newobj[key] = typeof obj[key] === "object" ? deepCopy(obj[key]) : obj[key]
+    }
+  }
+  return newobj
+}
