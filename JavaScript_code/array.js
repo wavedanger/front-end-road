@@ -142,9 +142,11 @@ console.log(flatten(arr))//[1,2,3,4,5]
 var arr = [1, 2, 3, 4]
 var arr2 = arr.concat()
 var arr3 = arr.slice()
+var arr4 = [...arr]
 arr2[0] = 2
 arr3[0] = 3
-console.log(arr + "|" + arr2 + "|" + arr3)//"1,2,3,4|2,2,3,4|3,2,3,4"
+arr4[0] = 4
+console.log(arr + "|" + arr2 + "|" + arr3)//"1,2,3,4|2,2,3,4|3,2,3,4|4,2,3,4"
 
 var shallowCopy = function (obj) {
   if (typeof obj !== "object") return
@@ -156,6 +158,9 @@ var shallowCopy = function (obj) {
   }
   return newobj
 }
+// 对象浅拷贝
+var cloneObj = Object.assign({}, obj)
+var cloneObj = { ...targetObj }
 //深拷贝
 var newArr = JSON.parse(JSON.stringify(arr))
 

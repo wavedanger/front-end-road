@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>modal自适应高度</title>
+  <style lang="">
+    #modal {
+      background-color: green;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .top,
+    .bottom {
+      height: 100px;
+      background-color: red;
+    }
+
+    .middle {
+      background-color: blue;
+      /* min-height: 200px; */
+      overflow: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="modal">
+      <div class="top"></div>
+      <div class="middle">
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+      </div>
+      <div class="bottom"></div>
+    </div>
+  </div>
+  <script>
+    var modalChange = function () {
+      var h = document.documentElement.clientHeight;
+      var w = document.documentElement.clientWidth;
+      document.getElementById("modal").style.height = h / 2 + "px"
+      document.getElementById("modal").style.width = w / 2 + "px"
+      document.getElementsByClassName("middle")[0].style.height = (h / 2 - 200) + "px"
+    }
+    window.onload = modalChange()
+    window.onresize = modalChange()
+  </script>
+</body>
+
+</html>
