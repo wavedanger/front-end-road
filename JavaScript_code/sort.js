@@ -10,6 +10,7 @@ function randomSort(arr) {
   return newArr
 }
 
+arr.sort(() => Math.random() - 0.5)//最后一项占比较小
 // 冒泡排序
 function bubbleSort(arr) {
   let length = arr.length;
