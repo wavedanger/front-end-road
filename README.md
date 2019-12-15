@@ -1,7 +1,5 @@
 # front-end-road
 
-这里将记录我的学习知识，温故而知新
-
 <details>
   <summary>JavaScript常见代码题</summary>
   
