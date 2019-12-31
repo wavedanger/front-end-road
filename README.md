@@ -21,4 +21,9 @@
 
 [知识点记录](https://github.com/wavedanger/record/wiki)
 
+<details>
+  <summary>20191231年终了，这里得立个flag</summary>
+[给自己的信](https://music.163.com/#/song?id=456175578)
+</details>
+
 
