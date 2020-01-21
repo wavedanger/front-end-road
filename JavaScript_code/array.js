@@ -136,6 +136,7 @@ function flatten(arr) {
   }
   return arr
 }
+var flatten = (arr) => arr.toString().split(',').map(item => +item)
 console.log(flatten(arr))//[1,2,3,4,5]
 
 // 浅拷贝 不适用于嵌套数组或对象

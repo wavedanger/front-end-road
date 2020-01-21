@@ -19,3 +19,13 @@ Function.prototype.mycall = function (context) {
   delete context.fn
   return result
 }
+// es2020
+Function.prototype.myCall = function (context, ...args) {
+  context = (context ?? window) || new Object(context)
+  const key = Symbol()
+  context[key] = this
+  const result = context[key](...args)
+  delete context[key]
+  return result
+}
+
