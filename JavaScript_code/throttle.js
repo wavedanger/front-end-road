@@ -1,4 +1,4 @@
-// 回流 函数，延时，立即执行
+// 节流 函数，延时，立即执行
 function throttle(fn, wait, immediate) {
   let callnow = immediate
   let timer = null
