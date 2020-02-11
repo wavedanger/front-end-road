@@ -1,0 +1,6 @@
+POST  http://api.budejie.com/api/api_open.php?a=list&c=data
+Content-Type: application/json
+
+{
+  "type":1
+}
