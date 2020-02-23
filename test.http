@@ -4,3 +4,9 @@ Content-Type: application/json
 {
   "type":1
 }
+###
+POST http://freecityid.market.alicloudapi.com/whapi/json/alicityweather/briefforecast3days
+
+Authorization:"APPCODE 335bc7a1b9644335afb687997cbb53fd"
+
+{"cityId":"2","token":"677282c2f1b3d718152c4e25ed434bc4"}
