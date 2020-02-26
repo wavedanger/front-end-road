@@ -26,12 +26,12 @@
 * [真的，移动端尺寸自适应与dpr无关](https://juejin.im/post/5b346e8f5188251e1d39bd09)
 * [web移动端布局的那些事儿](https://juejin.im/post/5b6575b0518825196b01fd85)
 #### CSS
-* [彻底搞定vertical-align垂直居中不起作用疑难杂症](https://juejin.im/post/5a7d6b886fb9a06349129463)
+* [我写CSS的常用套路](https://juejin.im/post/5e070cd9f265da33f8653f00)
+* [b站全灰，原来仅需一行css代码——css 滤镜](https://juejin.im/post/5df3a049f265da33f8652882)
 #### 布局
 * [干货!各种常见布局实现+知名网站实例分析](https://juejin.im/post/5aa252ac518825558001d5de)
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
-
 ### 学习视频推荐
 #### 移动端
 * [2019年新 移动web/前端开发之 流式/flex/rem布局技术](https://www.bilibili.com/video/av74121019?from=search&seid=4123441715946323566)
