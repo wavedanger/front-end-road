@@ -32,6 +32,14 @@
 * [干货!各种常见布局实现+知名网站实例分析](https://juejin.im/post/5aa252ac518825558001d5de)
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
+
+---
+
 ### 学习视频推荐
 #### 移动端
 * [2019年新 移动web/前端开发之 流式/flex/rem布局技术](https://www.bilibili.com/video/av74121019?from=search&seid=4123441715946323566)
+
+### 工具推荐
+#### 插件
+* [FeHelper](https://github.com/zxlie/FeHelper)
+* [google-access-helper](https://github.com/haotian-wang/google-access-helper)
