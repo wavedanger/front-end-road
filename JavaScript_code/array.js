@@ -1,3 +1,8 @@
+//数组乱序
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr.sort(function () {
+  return Math.random() - 0.5;
+});
 // 判断数组
 function judge(arr) {
   console.log(Array.isArray(arr))

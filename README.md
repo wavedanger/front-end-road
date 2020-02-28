@@ -3,6 +3,7 @@
 <details>
   <summary>JavaScript常见代码题</summary>
   
+  [类型判断](https://github.com/wavedanger/record/tree/master/JavaScript_code/judgetype.js)
   [回流](https://github.com/wavedanger/record/tree/master/JavaScript_code/throttle.js)
   [防抖](https://github.com/wavedanger/record/tree/master/JavaScript_code/debounce.js)
   [查找](https://github.com/wavedanger/record/tree/master/JavaScript_code/find.js)
