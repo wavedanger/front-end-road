@@ -26,13 +26,17 @@
 * [拿到一份设计稿，我该如何进行移动端开发？](https://juejin.im/post/5d736747e51d4561ff66688c)
 * [真的，移动端尺寸自适应与dpr无关](https://juejin.im/post/5b346e8f5188251e1d39bd09)
 * [web移动端布局的那些事儿](https://juejin.im/post/5b6575b0518825196b01fd85)
+#### 布局
+* [干货!各种常见布局实现+知名网站实例分析](https://juejin.im/post/5aa252ac518825558001d5de)
 #### CSS
 * [我写CSS的常用套路](https://juejin.im/post/5e070cd9f265da33f8653f00)
 * [b站全灰，原来仅需一行css代码——css 滤镜](https://juejin.im/post/5df3a049f265da33f8652882)
-#### 布局
-* [干货!各种常见布局实现+知名网站实例分析](https://juejin.im/post/5aa252ac518825558001d5de)
+#### JavaScript
+* [这才是JavaScript的本质!](https://mp.weixin.qq.com/s/WeEi8W5nZFbOFASNM8Ky9A)
+* [你可能不知道的JS开发技巧](https://mp.weixin.qq.com/s/mD_McGSEK67KiOEXanIPxw)
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
+* [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
 #### 开发基础
 * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.im/post/5e055d9ef265da33997a42cc)
 ---
