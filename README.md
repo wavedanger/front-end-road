@@ -37,8 +37,10 @@
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
 * [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
+* [前端面试之道-小册](https://juejin.im/book/5bdc715fe51d454e755f75ef)
 #### 开发基础
 * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.im/post/5e055d9ef265da33997a42cc)
+#### 工程化、模块化
 ---
 
 ### 学习视频推荐
@@ -47,6 +49,7 @@
 ---
 
 ### 工具推荐
-#### 插件
-* [FeHelper](https://github.com/zxlie/FeHelper)
-* [google-access-helper](https://github.com/haotian-wang/google-access-helper)
+#### chrome插件
+* [FeHelper-前端快捷工具箱](https://github.com/zxlie/FeHelper)
+* [google-access-helper-谷歌访问助手](https://github.com/haotian-wang/google-access-helper)
+* [sourcegraph，方便的代码查看，类似于开发工具](https://mp.weixin.qq.com/s/SfxqdBBHxFunq3AcaLY5dg)
