@@ -31,6 +31,7 @@
 #### CSS
 * [我写CSS的常用套路](https://juejin.im/post/5e070cd9f265da33f8653f00)
 * [b站全灰，原来仅需一行css代码——css 滤镜](https://juejin.im/post/5df3a049f265da33f8652882)
+* [你不知道的CSS开发技巧](https://mp.weixin.qq.com/s/tl4YJDq-xfhdPaJV6O5pxw)
 #### JavaScript
 * [这才是JavaScript的本质!](https://mp.weixin.qq.com/s/WeEi8W5nZFbOFASNM8Ky9A)
 * [你可能不知道的JS开发技巧](https://mp.weixin.qq.com/s/mD_McGSEK67KiOEXanIPxw)
@@ -53,3 +54,6 @@
 * [FeHelper-前端快捷工具箱](https://github.com/zxlie/FeHelper)
 * [google-access-helper-谷歌访问助手](https://github.com/haotian-wang/google-access-helper)
 * [sourcegraph，方便的代码查看，类似于开发工具](https://mp.weixin.qq.com/s/SfxqdBBHxFunq3AcaLY5dg)
+
+### 趣味
+* [几亿人都在玩的谷歌小恐龙游戏，全世界最高分是 99999？](https://mp.weixin.qq.com/s/zqhDiyzpZrVZepDlTpiMSg)
