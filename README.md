@@ -20,7 +20,12 @@
   [柯里化](https://github.com/wavedanger/record/tree/master/JavaScript_code/curry.js)
 </details>
 
+---
+
 ### 个人向好文整理
+
+#### 方向
+* [21 个建议帮助你成为一名成功的 Web 开发工程师](https://mp.weixin.qq.com/s/OkA2kvPOPm86_pxtquhE9Q)
 #### 移动端
 * [关于移动端适配，你必须要知道的](https://juejin.im/post/5cddf289f265da038f77696c)
 * [拿到一份设计稿，我该如何进行移动端开发？](https://juejin.im/post/5d736747e51d4561ff66688c)
@@ -35,6 +40,7 @@
 #### JavaScript
 * [这才是JavaScript的本质!](https://mp.weixin.qq.com/s/WeEi8W5nZFbOFASNM8Ky9A)
 * [你可能不知道的JS开发技巧](https://mp.weixin.qq.com/s/mD_McGSEK67KiOEXanIPxw)
+* [一文带你彻底搞懂跨域那些事](https://mp.weixin.qq.com/s/5PAirlPygGILopm5Br7w9Q)
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
 * [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
@@ -59,6 +65,8 @@
 * [FeHelper-前端快捷工具箱](https://github.com/zxlie/FeHelper)
 * [google-access-helper-谷歌访问助手](https://github.com/haotian-wang/google-access-helper)
 * [sourcegraph，方便的代码查看，类似于开发工具](https://mp.weixin.qq.com/s/SfxqdBBHxFunq3AcaLY5dg)
+
+---
 
 ### 趣味
 * [几亿人都在玩的谷歌小恐龙游戏，全世界最高分是 99999？](https://mp.weixin.qq.com/s/zqhDiyzpZrVZepDlTpiMSg)
