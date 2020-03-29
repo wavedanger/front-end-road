@@ -46,11 +46,14 @@
 * [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
 * [前端面试之道-小册](https://juejin.im/book/5bdc715fe51d454e755f75ef)
 * [前端同学经常忽视的一个JavaScript面试题](https://mp.weixin.qq.com/s/yvU8HE5lx2zWiCJ_cukINA)
+* [再来一打Webpack面试题](https://mp.weixin.qq.com/s/fGhcSP-SXz3l0Jklrv1I2w)
+* [看完这篇 HTTPS，和面试官扯皮就没问题了](https://juejin.im/post/5e6c4458518825491b11e082)
 #### 开发基础
 * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.im/post/5e055d9ef265da33997a42cc)
 * [前端需要了解的计算机网络知识](https://juejin.im/post/5e51febde51d4526c932b390)
 #### 工程化、模块化
 * [带你深度解锁Webpack系列(基础篇)](https://juejin.im/post/5e5c65fc6fb9a07cd00d8838)
+* [这些 Git 的使用场景是否也困扰过你](https://mp.weixin.qq.com/s/7eQ7nmvgVzlmG7OYBCFG-A)
 #### 调试
 * [很好用的 UI 调试技巧](https://mp.weixin.qq.com/s/gNmMOqVf-296BKIT39Lu2A)
 ---
