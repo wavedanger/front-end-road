@@ -41,6 +41,10 @@
 * [这才是JavaScript的本质!](https://mp.weixin.qq.com/s/WeEi8W5nZFbOFASNM8Ky9A)
 * [你可能不知道的JS开发技巧](https://mp.weixin.qq.com/s/mD_McGSEK67KiOEXanIPxw)
 * [一文带你彻底搞懂跨域那些事](https://mp.weixin.qq.com/s/5PAirlPygGILopm5Br7w9Q)
+* [全面梳理JS引擎的运行机制](https://mp.weixin.qq.com/s/bWGjZlBhlIfdSwRDK8XDHQ)
+* [你可以这样优化 if-else 代码结构](https://mp.weixin.qq.com/s/JzOQ_OwAYoP5Ic1VBtCZNA)
+#### Vue
+* [最全的 Vue 性能优化指南，经典收藏](https://mp.weixin.qq.com/s/OpoD8wux8ClnBIbNaDoYYg)
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
 * [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
