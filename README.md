@@ -33,9 +33,11 @@
 * [web移动端布局的那些事儿](https://juejin.im/post/5b6575b0518825196b01fd85)
 #### 布局
 * [干货!各种常见布局实现+知名网站实例分析](https://juejin.im/post/5aa252ac518825558001d5de)
+#### HTML
+* [12个前端必会 H5 问题及解决方法](https://mp.weixin.qq.com/s/vv4EqYJu7lEeRk8ArwsABg)
 #### CSS
 * [我写CSS的常用套路](https://juejin.im/post/5e070cd9f265da33f8653f00)
-* [b站全灰，原来仅需一行css代码——css 滤镜](https://juejin.im/post/5df3a049f265da33f8652882)
+* [BAT 用一行代码实现了网页黑白显示](https://mp.weixin.qq.com/s/RzDOXV4lmKeWnAecNFyLVw)
 * [你不知道的CSS开发技巧](https://mp.weixin.qq.com/s/tl4YJDq-xfhdPaJV6O5pxw)
 #### JavaScript
 * [这才是JavaScript的本质!](https://mp.weixin.qq.com/s/WeEi8W5nZFbOFASNM8Ky9A)
