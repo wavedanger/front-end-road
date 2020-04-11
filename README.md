@@ -59,6 +59,7 @@
 #### 开发基础
 * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.im/post/5e055d9ef265da33997a42cc)
 * [前端需要了解的计算机网络知识](https://juejin.im/post/5e51febde51d4526c932b390)
+* [扫码登录的技术原理好像没那么难](https://mp.weixin.qq.com/s/dIjFzuJYvc7LI4RTBtcNsg)
 #### 工程化、模块化
 * [带你深度解锁Webpack系列(基础篇)](https://juejin.im/post/5e5c65fc6fb9a07cd00d8838)
 * [这些 Git 的使用场景是否也困扰过你](https://mp.weixin.qq.com/s/7eQ7nmvgVzlmG7OYBCFG-A)
