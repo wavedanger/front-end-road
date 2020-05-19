@@ -1,14 +1,20 @@
-// 获取url参数
-function getUrlParams(url) {
-  url = url ? url : window.location.search
+let urlStr = 'http://www.inode.club?name=koala&study=js&study=node'
+// 参数转成对象
+function queryString(request) {
+  let params = request.split("?")[1]
+  let param = params.split("&")
   let obj = {}
-  if (url.indexOf("?") != -1) {
-    let arr = url.split("?")[1].split("&")//[key=val,key2=val2,...]
-    arr.forEach((value) => {
-      obj[value.split("=")[0]] = unescape(value.split("=")[1])
-    })
+  for (let i = 0; i < param.length; i++) {
+    let paramA = param[i].split("=")
+    let key = paramA[0]
+    let value = paramA[1]
+    if (obj[key]) {
+      obj[key] = Array.isArray(obj[key]) ? obj[key] : [obj[key]]
+      obj[key].push(value)
+    } else {
+      obj[key] = value
+    }
   }
   return obj
 }
-const testurl = "https://www.google.com/search?biw=1280&bih=609&ei=PXvoXYbHMenUmAX4nZDAAQ&q=format&oq=format&gs_l=psy-ab"
-console.log(getUrlParams(testurl))
+console.log(queryString(urlStr));

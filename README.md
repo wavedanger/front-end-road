@@ -50,6 +50,7 @@
 #### 面试
 * [前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
 * [前端面试常考的手写代码不是背出来的！](https://juejin.im/post/5e57048b6fb9a07cc845a9ef)
+* [前端面试手撕代码技巧总结](https://mp.weixin.qq.com/s/qapbwTuaLwxABHNnRsz_LQ)ss
 * [前端面试之道-小册](https://juejin.im/book/5bdc715fe51d454e755f75ef)
 * [前端同学经常忽视的一个JavaScript面试题](https://mp.weixin.qq.com/s/yvU8HE5lx2zWiCJ_cukINA)
 * [再来一打Webpack面试题](https://mp.weixin.qq.com/s/fGhcSP-SXz3l0Jklrv1I2w)
