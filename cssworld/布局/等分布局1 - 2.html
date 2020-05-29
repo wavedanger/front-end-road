@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>等分布局1-2</title>
+  <style lang="">
+    .box-fit {
+      overflow: hidden;
+    }
+
+    .box {
+      height: 200px;
+      margin-left: -10px;
+    }
+
+    .col {
+      width: 25%;
+      float: left;
+      padding-left: 10px;
+      box-sizing: border-box;
+    }
+
+    .inner {
+      height: 200px;
+    }
+
+    .col:nth-child(odd) .inner {
+      background-color: tomato;
+    }
+
+    .col:nth-child(even) .inner {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box-fit">
+    <div class="box">
+      <div class="col">
+        <div class="inner"></div>
+      </div>
+      <div class="col">
+        <div class="inner"></div>
+      </div>
+      <div class="col">
+        <div class="inner"></div>
+      </div>
+      <div class="col">
+        <div class="inner"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

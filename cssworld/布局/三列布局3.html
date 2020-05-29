@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三列布局3</title>
+  <style lang="">
+    #parent {
+      display: table;
+      width: 100%;
+    }
+
+    #left,
+    #center,
+    #right {
+      display: table-cell;
+      height: 200px;
+    }
+
+    #left,
+    #center {
+      width: 200px;
+    }
+
+    #left {
+      background-color: tomato;
+    }
+
+    #center {
+      background-color: gold;
+    }
+
+    #right {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="parent">
+    <div id="left"></div>
+    <div id="center"></div>
+    <div id="right"></div>
+  </div>
+</body>
+
+</html>

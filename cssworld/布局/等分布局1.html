@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>等分布局1</title>
+  <style lang="">
+    .box {
+      height: 200px;
+    }
+
+    .col {
+      width: 25%;
+      height: 200px;
+      float: left;
+    }
+
+    .col:nth-child(odd) {
+      background-color: tomato;
+    }
+
+    .col:nth-child(even) {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</body>
+
+</html>
