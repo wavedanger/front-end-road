@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>垂直布局</title>
+  <style lang="">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      height: 100vh;
+    }
+
+    .wrap {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+    }
+
+    header,
+    footer {
+      min-height: 100px;
+      background: pink;
+    }
+
+    main {
+      flex: 1;
+      background: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header></header>
+    <main>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style lang="">
+    .wrap {
+      padding: 0 300px 0 200px;
+    }
+
+    .wrap::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .left,
+    .main,
+    .right {
+      float: left;
+      height: 100px;
+    }
+
+    .left {
+      margin-left: -100%;
+      position: relative;
+      left: -200px;
+      width: 200px;
+      background-color: red;
+    }
+
+    .right {
+      margin-left: -300px;
+      position: relative;
+      right: -300px;
+      width: 300px;
+      background-color: yellowgreen;
+    }
+
+    .main {
+      width: 100%;
+      background: green;
+    }
+
+    @media only screen and (max-width: 776px) {
+      .wrap {
+        padding: 0;
+      }
+
+      .left {
+        margin-left: 0;
+        left: 0;
+      }
+
+      .right {
+        margin-left: 0;
+        right: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="main"></div>
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+</body>
+
+</html>
