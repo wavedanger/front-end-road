@@ -1,0 +1,82 @@
+.footer {
+  position: relative;
+  padding-top: 300px;
+  min-height: 276px;
+  background: url(https://wavedanger.github.io/article/folder1/csswalkflash/bg.webp) no-repeat center top;
+  background-color: #86a5d3;
+}
+
+.west {
+  background-repeat: no-repeat;
+}
+
+.west:nth-child(1) {
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  left: 50%;
+  margin-left: -398px;
+  top: 352px;
+  background-image: url(https://wavedanger.github.io/article/folder1/csswalkflash/monkey.png);
+  animation: move01 1.4s steps(8) infinite;
+}
+
+.west:nth-child(2) {
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  left: 50%;
+  margin-left: -198px;
+  top: 356px;
+  background-image: url(https://wavedanger.github.io/article/folder1/csswalkflash/pig.png);
+  animation: move01 1.4s steps(8) infinite;
+}
+
+.west:nth-child(3) {
+  position: absolute;
+  width: 170px;
+  height: 240px;
+  left: 50%;
+  margin-left: -11px;
+  top: 326px;
+  background-image: url(https://wavedanger.github.io/article/folder1/csswalkflash/people.png);
+  animation: move02 1.4s steps(8) infinite;
+}
+
+.west:nth-child(4) {
+  position: absolute;
+  width: 210px;
+  height: 200px;
+  left: 50%;
+  margin-left: 198px;
+  top: 372px;
+  background-image: url(https://wavedanger.github.io/article/folder1/csswalkflash/sand.png);
+  animation: move03 1.4s steps(8) infinite;
+}
+
+@keyframes move01 {
+  from {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: -1600px
+  }
+}
+
+@keyframes move02 {
+  from {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: -1360px
+  }
+}
+
+@keyframes move03 {
+  from {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: -1680px
+  }
+}
