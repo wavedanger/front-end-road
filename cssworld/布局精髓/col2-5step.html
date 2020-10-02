@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>二列布局flex</title>
+  <style lang="">
+    .wrap {
+      display: flex;
+      height: 100px;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+    }
+
+    .main {
+      flex: 1;
+      background: aqua;
+    }
+
+    .aside {
+      width: 200px;
+      background: pink;
+    }
+
+    @media only screen and (max-width:1000px) {
+      .wrap {
+        flex-direction: row;
+      }
+
+      .main {
+        flex: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="main">主要布局</div>
+    <div class="aside">次要布局</div>
+  </div>
+</body>
+
+</html>
