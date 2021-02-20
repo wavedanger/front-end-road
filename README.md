@@ -97,3 +97,4 @@
 * [git手册](https://git-scm.com/book/zh/v2/%E5%88%86%E5%B8%83%E5%BC%8F-Git-%E5%88%86%E5%B8%83%E5%BC%8F%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B)
 * [mdnice](https://www.mdnice.com/)
 * [一个草根前端人的焦虑](https://juejin.cn/post/6922456847765110798)
+* [十分钟学会正则表达式](https://mp.weixin.qq.com/s/sP1hMJquJ_Cxeki2oRICeg)
