@@ -57,6 +57,7 @@
 * [看完这篇 HTTPS，和面试官扯皮就没问题了](https://juejin.im/post/5e6c4458518825491b11e082)
 * [如何机智地回答浏览器兼容性问题](https://juejin.im/post/5b3da006e51d4518f140edb2)
 * [前端性能优化之雅虎35条军规](https://juejin.im/post/5b73ef38f265da281e048e51)
+* [为什么cookie会有httponly属性?真实案例解释XSS的三种攻击](https://mp.weixin.qq.com/s/ag-OUsTyZiw3kCoSgONccg)
 #### 开发基础
 * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.im/post/5e055d9ef265da33997a42cc)
 * [前端需要了解的计算机网络知识](https://juejin.im/post/5e51febde51d4526c932b390)
